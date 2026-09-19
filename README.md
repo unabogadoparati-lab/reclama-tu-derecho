@@ -70,3 +70,45 @@ Este proyecto es de código abierto y está pensado para ayudar a consumidores a
 ---
 
 Hecho con cariño por el equipo de Derecho Accesible 🌸
+
+
+## API REST
+
+Esta versión incluye una API REST basada en Flask para generar reclamaciones mediante peticiones HTTP.
+
+### Endpoints
+
+- `GET /` - Información básica de la API
+- `GET /ejemplo` - Devuelve una reclamación de ejemplo
+- `POST /generar` - Genera una reclamación a partir de JSON
+
+#### Ejemplo de uso con curl:
+
+```bash
+# Ejemplo
+curl -X GET https://tu-servicio.onrender.com/ejemplo
+
+# Generar una reclamación (reemplaza con tus datos)
+curl -X POST https://tu-servicio.onrender.com/generar \
+  -H "Content-Type: application/json" \
+  -d '{
+    "tipo": "amazon_retraso",
+    "empresa": "Amazon España",
+    "numero_pedido": "TU-PEDIDO",
+    "nombre_usuario": "Tu Nombre",
+    "dni": "TU-DNI",
+    "email": "tu@email.com",
+    "fecha_pedido": "01/01/2026",
+    "fecha_estimada": "05/01/2026",
+    "fecha_real": "12/01/2026",
+    "numero_dias": "7",
+    "importe": "50,00",
+    "descripcion": "Descripción del problema...",
+    "leyes": "Ley aplicable...",
+    "condiciones": "Condiciones de la empresa...",
+    "peticiones": "Qué pides...",
+    "documentos_adjuntos": "Lista de documentos..."
+  }'
+```
+
+La respuesta será JSON con el campo `reclamacion` conteniendo el texto generado.
