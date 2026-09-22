@@ -1,0 +1,23 @@
+[LOGO O NOMBRE DE TU SERVICIO]
+
+# [TITULO_ARTICULO]
+
+## Introducción
+
+[INTRODUCCION]
+
+## Desarrollo
+
+[DESARROLLO]
+
+## Conclusión
+
+[CONCLUSION]
+
+---
+
+*[LLAMADA_ACCION]*
+
+**Palabras clave SEO:** [PALABRAS_CLAVE]
+
+*Publicado el [FECHA]*

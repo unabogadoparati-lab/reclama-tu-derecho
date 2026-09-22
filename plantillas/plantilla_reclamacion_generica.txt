@@ -1,0 +1,9 @@
+[LOGO O NOMBRE DE TU SERVICIO]
+[Fecha actual]
+
+Estimado/a [NOMBRE_USUARIO]:
+
+Gracias por ponerte en contacto con nosotros. Hemos recibido su consulta y le responderemos a la mayor brevedad posible.
+
+Atentamente,
+Equipo de [EMPRESA]

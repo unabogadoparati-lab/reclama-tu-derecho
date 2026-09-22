@@ -1,0 +1,13 @@
+# Salidas generadas por el script (cada ejecución crea un fichero nuevo)
+generadas/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Sistema
+.DS_Store
